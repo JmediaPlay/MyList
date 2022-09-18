@@ -9,5 +9,8 @@ https://e-4.dokicloud.one/_v8/16dacbc4dfa6af99424f45cb597c310e323883242a4c6a2f15
 #EXTINF: -1, VOD MOVIES
 https://raw.githubusercontent.com/xteriumboy/MOVIES-iptV/master/VOD.m3u
 
-#EXTINF: -1, C
+#EXTINF: -1, brasil
 https://raw.githubusercontent.com/kodissiptv/iptv/main/brasil.m3u
+
+#EXTINF: -1, xxx
+https://raw.githubusercontent.com/khoebhoerhan/GMTV/main/Playboy.m3u
