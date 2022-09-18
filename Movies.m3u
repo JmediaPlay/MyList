@@ -5,3 +5,6 @@ https://c-2.dokicloud.one/_v8/6af53f093976156d100a745342b0bb0b95822f6e8af743f442
 
 #EXTINF: -1, Fall
 https://e-4.dokicloud.one/_v8/16dacbc4dfa6af99424f45cb597c310e323883242a4c6a2f1520746cc91701297199cf1e37c1ad248e51b855bed7bf11d252a447ba53645233f6183c4b0518eb25453b3637df757b8e21d8f7502291781e96ffe75af245075ae1ecfb6d220b565e548ab446043c3894ebd5552737146c1c2b0db609723bcec1d21c9f3c1f6670/720/index.m3u8
+
+#EXTINF: -1, VOD MOVIES
+https://raw.githubusercontent.com/xteriumboy/MOVIES-iptV/master/VOD.m3u
