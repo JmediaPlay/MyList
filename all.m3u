@@ -3,7 +3,7 @@
 #EXTINF:-1, group-title="ENG"
 https://raw.githubusercontent.com/JmediaPlay/MyList/main/eng.m3u
 
-#EXTINF: -1, PORTUGUÊS
+#EXTINF:-1, group-title="POR"
 https://raw.githubusercontent.com/JmediaPlay/MyList/main/por.m3u
 
 
