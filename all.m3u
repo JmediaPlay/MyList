@@ -1,9 +1,9 @@
 #EXTM3U
 
-#EXTINF:-1, group-title="ENG"
+#EXTINF:-1, group-title="ENG",INGLÊS
 https://raw.githubusercontent.com/JmediaPlay/MyList/main/eng.m3u
 
-#EXTINF:-1, group-title="POR"
+#EXTINF:-1, group-title="POR",PORTUGUÊS
 https://raw.githubusercontent.com/JmediaPlay/MyList/main/por.m3u
 
 
