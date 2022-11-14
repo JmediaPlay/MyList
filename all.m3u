@@ -7,4 +7,4 @@ https://raw.githubusercontent.com/JmediaPlay/MyList/main/eng.m3u
 https://raw.githubusercontent.com/JmediaPlay/MyList/main/por.m3u
 
 #EXTINF:-1,TEST2
-http://127.0.0.1:11470/b794e1ac9cbb0eb4e8387b909e60669044674c83/0/hls.m3u8
+http://192.168.250.2:11470/b794e1ac9cbb0eb4e8387b909e60669044674c83/0/hls.m3u8
