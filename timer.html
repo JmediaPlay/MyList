@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Timer</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		.timer {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 800px;
+		}
+		.timer > div {
+			margin: 20px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border-radius: 5px;
+			box-shadow: 0 0 5px #ccc;
+			flex: 1;
+			min-width: 100px;
+			text-align: center;
+		}
+		.timer > div span {
+			font-size: 3rem;
+		}
+		@media screen and (max-width: 600px) {
+			.timer {
+				flex-direction: column;
+			}
+			.timer > div {
+				margin: 10px 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="timer">
+		<div>
+			<span id="hours">00</span><br>
+			<span>Horas</span>
+		</div>
+		<div>
+			<span id="minutes">00</span><br>
+			<span>Minutos</span>
+		</div>
+		<div>
+			<span id="seconds">00</span><br>
+			<span>Segundos</span>
+		</div>
+	</div>
+
+	<script>
+		// Defina a data e a hora de término
+		var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
+
+		// Atualize o timer a cada segundo
+		var x = setInterval(function() {
+
+			// Obtenha a data e hora atual
+			var now = new Date().getTime();
+
+			// Encontre a distância entre agora e a data de término
+			var distance = countDownDate - now;
+
+			// Calcule as horas, minutos e segundos restantes
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Exiba o resultado nos elementos span
+			document.getElementById("hours").innerHTML = hours.toString().padStart(2, '0');
+			document.getElementById("minutes").innerHTML = minutes.toString().padStart(2, '0');
+			document.getElementById("seconds").innerHTML = seconds.toString().padStart(2, '0');
+
+			// Se o contador terminou, exiba uma mensagem
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("timer").innerHTML = "EXPIRADO";
+			}
+		}, 1000);
+	</script>
+</body>
+</html>
