@@ -1,7 +1,5 @@
 #EXTM3U
 
-#EXTINF: -1, My_Movies
-https://raw.githubusercontent.com/JmediaPlay/MyList/main/My_Movies.m3u
 
 #EXTINF: -1, VOD MOVIES
 https://raw.githubusercontent.com/xteriumboy/MOVIES-iptV/master/VOD.m3u
